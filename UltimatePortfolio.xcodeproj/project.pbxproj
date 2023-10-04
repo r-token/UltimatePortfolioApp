@@ -18,6 +18,7 @@
 		F446922F2ACCFBFF00A9657E /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F446922E2ACCFBFF00A9657E /* Filter.swift */; };
 		F44692312ACD025D00A9657E /* Issue+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */; };
 		F44692332ACD034000A9657E /* Tag+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */; };
+		F44692352ACD07AC00A9657E /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692342ACD07AC00A9657E /* IssueRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F446922E2ACCFBFF00A9657E /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue+CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		F44692342ACD07AC00A9657E /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				F446922E2ACCFBFF00A9657E /* Filter.swift */,
 				F446922A2ACCFA2B00A9657E /* SidebarView.swift */,
 				F44692172ACCED4800A9657E /* ContentView.swift */,
+				F44692342ACD07AC00A9657E /* IssueRow.swift */,
 				F446922C2ACCFA3000A9657E /* DetailView.swift */,
 				F44692272ACCF41B00A9657E /* DataController.swift */,
 				F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */,
@@ -170,6 +173,7 @@
 				F446922B2ACCFA2B00A9657E /* SidebarView.swift in Sources */,
 				F44692182ACCED4800A9657E /* ContentView.swift in Sources */,
 				F44692162ACCED4800A9657E /* UltimatePortfolioApp.swift in Sources */,
+				F44692352ACD07AC00A9657E /* IssueRow.swift in Sources */,
 				F44692332ACD034000A9657E /* Tag+CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
