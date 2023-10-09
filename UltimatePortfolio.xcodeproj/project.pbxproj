@@ -19,6 +19,8 @@
 		F44692312ACD025D00A9657E /* Issue+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */; };
 		F44692332ACD034000A9657E /* Tag+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */; };
 		F44692352ACD07AC00A9657E /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692342ACD07AC00A9657E /* IssueRow.swift */; };
+		F4E8B28D2AD38BA2005BFAB7 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */; };
+		F4E8B28F2AD38BA8005BFAB7 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue+CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		F44692342ACD07AC00A9657E /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
+		F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
+		F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				F44692172ACCED4800A9657E /* ContentView.swift */,
 				F44692342ACD07AC00A9657E /* IssueRow.swift */,
 				F446922C2ACCFA3000A9657E /* DetailView.swift */,
+				F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */,
+				F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */,
 				F44692272ACCF41B00A9657E /* DataController.swift */,
 				F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */,
 				F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */,
@@ -173,6 +179,8 @@
 				F446922B2ACCFA2B00A9657E /* SidebarView.swift in Sources */,
 				F44692182ACCED4800A9657E /* ContentView.swift in Sources */,
 				F44692162ACCED4800A9657E /* UltimatePortfolioApp.swift in Sources */,
+				F4E8B28D2AD38BA2005BFAB7 /* IssueView.swift in Sources */,
+				F4E8B28F2AD38BA8005BFAB7 /* NoIssueView.swift in Sources */,
 				F44692352ACD07AC00A9657E /* IssueRow.swift in Sources */,
 				F44692332ACD034000A9657E /* Tag+CoreDataHelpers.swift in Sources */,
 			);
