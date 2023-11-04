@@ -72,6 +72,9 @@ struct IssueView: View {
             }
         }
         .disabled(issue.isDeleted)
+        .onReceive(issue.objectWillChange) {
+            dataController.queueSave()
+        }
     }
 }
 
