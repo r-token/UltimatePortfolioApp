@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F437877E2AF6C83100ADE20F /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437877D2AF6C83100ADE20F /* Bundle-Decodable.swift */; };
-		F43787812AF6CB9A00ADE20F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F437877F2AF6CB9A00ADE20F /* Colors.xcassets */; };
 		F43787842AF6CC1600ADE20F /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43787832AF6CC1600ADE20F /* Award.swift */; };
 		F43787862AF6CC9900ADE20F /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43787852AF6CC9900ADE20F /* AwardsView.swift */; };
 		F44692162ACCED4800A9657E /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692152ACCED4800A9657E /* UltimatePortfolioApp.swift */; };
@@ -24,14 +23,14 @@
 		F44692332ACD034000A9657E /* Tag+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */; };
 		F44692352ACD07AC00A9657E /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692342ACD07AC00A9657E /* IssueRow.swift */; };
 		F4A408512AF88BBA00254665 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F4A408502AF88BBA00254665 /* Localizable.xcstrings */; };
-		F4A408522AF8969600254665 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = F4A408542AF8969600254665 /* Awards.json */; };
+		F4A4085E2AF8981600254665 /* awards.json in Resources */ = {isa = PBXBuildFile; fileRef = F4A408602AF8981600254665 /* awards.json */; };
+		F4A408652AF8987800254665 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A408642AF8987800254665 /* Colors.xcassets */; };
 		F4E8B28D2AD38BA2005BFAB7 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */; };
 		F4E8B28F2AD38BA8005BFAB7 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F437877D2AF6C83100ADE20F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
-		F437877F2AF6CB9A00ADE20F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = "../../../../../../Downloads/portfolio-awards/Colors.xcassets"; sourceTree = "<group>"; };
 		F43787832AF6CC1600ADE20F /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		F43787852AF6CC9900ADE20F /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		F44692122ACCED4800A9657E /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,8 +49,10 @@
 		F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		F44692342ACD07AC00A9657E /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 		F4A408502AF88BBA00254665 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		F4A408532AF8969600254665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
-		F4A408552AF8969A00254665 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
+		F4A4085F2AF8981600254665 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/awards.json; sourceTree = "<group>"; };
+		F4A408612AF8981E00254665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/awards.json; sourceTree = "<group>"; };
+		F4A408642AF8987800254665 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ../../../../../Downloads/UltimatePortfolio/UltimatePortfolio/Colors.xcassets; sourceTree = "<group>"; };
+		F4A408662AF8987A00254665 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
 		F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +71,7 @@
 		F44692092ACCED4800A9657E = {
 			isa = PBXGroup;
 			children = (
+				F4A408642AF8987800254665 /* Colors.xcassets */,
 				F44692142ACCED4800A9657E /* UltimatePortfolio */,
 				F44692132ACCED4800A9657E /* Products */,
 			);
@@ -102,10 +104,10 @@
 				F44692272ACCF41B00A9657E /* DataController.swift */,
 				F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */,
 				F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */,
+				F4A408602AF8981600254665 /* awards.json */,
 				F44692242ACCF1E400A9657E /* Main.xcdatamodeld */,
 				F44692192ACCED4900A9657E /* Assets.xcassets */,
-				F4A408542AF8969600254665 /* Awards.json */,
-				F437877F2AF6CB9A00ADE20F /* Colors.xcassets */,
+				F4A408662AF8987A00254665 /* Colors.xcassets */,
 				F446921B2ACCED4900A9657E /* UltimatePortfolio.entitlements */,
 				F446921C2ACCED4900A9657E /* Preview Content */,
 			);
@@ -179,9 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43787812AF6CB9A00ADE20F /* Colors.xcassets in Resources */,
+				F4A408652AF8987800254665 /* Colors.xcassets in Resources */,
 				F4A408512AF88BBA00254665 /* Localizable.xcstrings in Resources */,
-				F4A408522AF8969600254665 /* Awards.json in Resources */,
+				F4A4085E2AF8981600254665 /* awards.json in Resources */,
 				F446921E2ACCED4900A9657E /* Preview Assets.xcassets in Resources */,
 				F446921A2ACCED4900A9657E /* Assets.xcassets in Resources */,
 			);
@@ -215,14 +217,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4A408542AF8969600254665 /* Awards.json */ = {
+		F4A408602AF8981600254665 /* awards.json */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4A408532AF8969600254665 /* en */,
-				F4A408552AF8969A00254665 /* hu */,
+				F4A4085F2AF8981600254665 /* hu */,
+				F4A408612AF8981E00254665 /* en */,
 			);
-			name = Awards.json;
-			path = "../../../../../../Downloads/portfolio-awards";
+			name = awards.json;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
