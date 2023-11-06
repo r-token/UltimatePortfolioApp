@@ -48,9 +48,9 @@ struct AwardsView: View {
     
     var awardTitle: String {
         if dataController.hasEarned(award: selectedAward) {
-            return "Unlocked: \(selectedAward.name)"
+            return String(localized: "Unlocked: \(selectedAward.name)")
         } else {
-            return "Locked"
+            return String(localized: "Locked")
         }
     }
 }
