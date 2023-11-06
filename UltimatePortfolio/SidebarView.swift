@@ -17,8 +17,6 @@ struct SidebarView: View {
     @State private var renamingTag = false
     @State private var tagName = ""
     
-    @State private var showingAwards = false
-    
     var tagFilters: [Filter] {
         tags.map { tag in
             Filter(id: tag.tagId, name: tag.tagName, icon: "tag", tag: tag)
@@ -29,67 +27,24 @@ struct SidebarView: View {
         List(selection: $dataController.selectedFilter) {
             Section("Smart Filters") {
                 ForEach(smartFilters) { filter in
-                    NavigationLink(value: filter) {
-                        Label(LocalizedStringKey(filter.name), systemImage: filter.icon)
-                    }
+                    SmartFilterRow(filter: filter)
                 }
             }
             
             Section("Tags") {
                 ForEach(tagFilters) { filter in
-                    NavigationLink(value: filter) {
-                        Label(filter.name, systemImage: filter.icon)
-                            .badge(filter.activeIssuesCount)
-                            .contextMenu {
-                                Button {
-                                    rename(filter)
-                                } label: {
-                                    Label("Rename", systemImage: "pencil")
-                                }
-                                
-                                
-                                Button(role: .destructive) {
-                                    delete(filter)
-                                } label: {
-                                    Label("Delete", systemImage: "trash")
-                                }
-                            }
-                            .accessibilityElement()
-                            .accessibilityLabel(filter.name)
-                            .accessibilityHint("^[\(filter.activeIssuesCount) issue](inflect: true)")
-                    }
+                    UserFilterRow(filter: filter, rename: rename, delete: delete)
                 }
                 .onDelete(perform: delete)
             }
         }
         .toolbar {
-            Button(action: dataController.newTag) {
-                Label("Add tag", systemImage: "plus")
-            }
-            
-            Button {
-                showingAwards.toggle()
-            } label: {
-                Label("Show awards", systemImage: "rosette")
-            }
-            
-            #if DEBUG
-            Button {
-                dataController.deleteAll()
-                dataController.createSampleData()
-            } label: {
-                Label("ADD SAMPLE DATA", systemImage: "flame")
-            }
-            #endif
+            SidebarViewToolbar()
         }
         .alert("Rename tag", isPresented: $renamingTag) {
             Button("OK", action: completeRename)
             Button("Cancel", role: .cancel) { }
             TextField("New name", text: $tagName)
-        }
-        
-        .sheet(isPresented: $showingAwards) {
-            AwardsView.init()
         }
         .navigationTitle("Filters")
     }

@@ -23,7 +23,13 @@
 		F44692332ACD034000A9657E /* Tag+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */; };
 		F44692352ACD07AC00A9657E /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692342ACD07AC00A9657E /* IssueRow.swift */; };
 		F4A408512AF88BBA00254665 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F4A408502AF88BBA00254665 /* Localizable.xcstrings */; };
-		F4A4085E2AF8981600254665 /* awards.json in Resources */ = {isa = PBXBuildFile; fileRef = F4A408602AF8981600254665 /* awards.json */; };
+		F4A4085E2AF8981600254665 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = F4A408602AF8981600254665 /* Awards.json */; };
+		F4A408682AF89B6000254665 /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A408672AF89B6000254665 /* SidebarViewToolbar.swift */; };
+		F4A4086B2AF89CFD00254665 /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4086A2AF89CFD00254665 /* IssueViewToolbar.swift */; };
+		F4A4086D2AF89D9000254665 /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4086C2AF89D9000254665 /* ContentViewToolbar.swift */; };
+		F4A4086F2AF8A01800254665 /* TagsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4086E2AF8A01800254665 /* TagsMenuView.swift */; };
+		F4A408712AF8A0D100254665 /* SmartFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A408702AF8A0D100254665 /* SmartFilterRow.swift */; };
+		F4A408732AF8A11B00254665 /* UserFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A408722AF8A11B00254665 /* UserFilterRow.swift */; };
 		F4E8B28D2AD38BA2005BFAB7 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */; };
 		F4E8B28F2AD38BA8005BFAB7 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */; };
 /* End PBXBuildFile section */
@@ -48,9 +54,15 @@
 		F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		F44692342ACD07AC00A9657E /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 		F4A408502AF88BBA00254665 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		F4A4085F2AF8981600254665 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/awards.json; sourceTree = "<group>"; };
-		F4A408612AF8981E00254665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/awards.json; sourceTree = "<group>"; };
+		F4A4085F2AF8981600254665 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
+		F4A408612AF8981E00254665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		F4A408662AF8987A00254665 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F4A408672AF89B6000254665 /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
+		F4A4086A2AF89CFD00254665 /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
+		F4A4086C2AF89D9000254665 /* ContentViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewToolbar.swift; sourceTree = "<group>"; };
+		F4A4086E2AF8A01800254665 /* TagsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsMenuView.swift; sourceTree = "<group>"; };
+		F4A408702AF8A0D100254665 /* SmartFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFilterRow.swift; sourceTree = "<group>"; };
+		F4A408722AF8A11B00254665 /* UserFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFilterRow.swift; sourceTree = "<group>"; };
 		F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
 		F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,19 +101,25 @@
 				F44692152ACCED4800A9657E /* UltimatePortfolioApp.swift */,
 				F446922E2ACCFBFF00A9657E /* Filter.swift */,
 				F446922A2ACCFA2B00A9657E /* SidebarView.swift */,
+				F4A408722AF8A11B00254665 /* UserFilterRow.swift */,
+				F4A408702AF8A0D100254665 /* SmartFilterRow.swift */,
+				F4A408672AF89B6000254665 /* SidebarViewToolbar.swift */,
 				F4A408502AF88BBA00254665 /* Localizable.xcstrings */,
 				F43787852AF6CC9900ADE20F /* AwardsView.swift */,
 				F437877D2AF6C83100ADE20F /* Bundle-Decodable.swift */,
 				F43787832AF6CC1600ADE20F /* Award.swift */,
 				F44692172ACCED4800A9657E /* ContentView.swift */,
+				F4A4086C2AF89D9000254665 /* ContentViewToolbar.swift */,
 				F44692342ACD07AC00A9657E /* IssueRow.swift */,
 				F446922C2ACCFA3000A9657E /* DetailView.swift */,
 				F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */,
+				F4A4086E2AF8A01800254665 /* TagsMenuView.swift */,
+				F4A4086A2AF89CFD00254665 /* IssueViewToolbar.swift */,
 				F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */,
 				F44692272ACCF41B00A9657E /* DataController.swift */,
 				F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */,
 				F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */,
-				F4A408602AF8981600254665 /* awards.json */,
+				F4A408602AF8981600254665 /* Awards.json */,
 				F44692242ACCF1E400A9657E /* Main.xcdatamodeld */,
 				F44692192ACCED4900A9657E /* Assets.xcassets */,
 				F4A408662AF8987A00254665 /* Colors.xcassets */,
@@ -179,7 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A408512AF88BBA00254665 /* Localizable.xcstrings in Resources */,
-				F4A4085E2AF8981600254665 /* awards.json in Resources */,
+				F4A4085E2AF8981600254665 /* Awards.json in Resources */,
 				F446921E2ACCED4900A9657E /* Preview Assets.xcassets in Resources */,
 				F446921A2ACCED4900A9657E /* Assets.xcassets in Resources */,
 			);
@@ -193,7 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44692312ACD025D00A9657E /* Issue+CoreDataHelpers.swift in Sources */,
+				F4A4086F2AF8A01800254665 /* TagsMenuView.swift in Sources */,
 				F43787842AF6CC1600ADE20F /* Award.swift in Sources */,
+				F4A4086B2AF89CFD00254665 /* IssueViewToolbar.swift in Sources */,
+				F4A408712AF8A0D100254665 /* SmartFilterRow.swift in Sources */,
 				F43787862AF6CC9900ADE20F /* AwardsView.swift in Sources */,
 				F446922F2ACCFBFF00A9657E /* Filter.swift in Sources */,
 				F44692262ACCF1E400A9657E /* Main.xcdatamodeld in Sources */,
@@ -201,9 +222,12 @@
 				F437877E2AF6C83100ADE20F /* Bundle-Decodable.swift in Sources */,
 				F44692282ACCF41B00A9657E /* DataController.swift in Sources */,
 				F446922B2ACCFA2B00A9657E /* SidebarView.swift in Sources */,
+				F4A4086D2AF89D9000254665 /* ContentViewToolbar.swift in Sources */,
 				F44692182ACCED4800A9657E /* ContentView.swift in Sources */,
 				F44692162ACCED4800A9657E /* UltimatePortfolioApp.swift in Sources */,
+				F4A408682AF89B6000254665 /* SidebarViewToolbar.swift in Sources */,
 				F4E8B28D2AD38BA2005BFAB7 /* IssueView.swift in Sources */,
+				F4A408732AF8A11B00254665 /* UserFilterRow.swift in Sources */,
 				F4E8B28F2AD38BA8005BFAB7 /* NoIssueView.swift in Sources */,
 				F44692352ACD07AC00A9657E /* IssueRow.swift in Sources */,
 				F44692332ACD034000A9657E /* Tag+CoreDataHelpers.swift in Sources */,
@@ -213,13 +237,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4A408602AF8981600254665 /* awards.json */ = {
+		F4A408602AF8981600254665 /* Awards.json */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F4A4085F2AF8981600254665 /* hu */,
 				F4A408612AF8981E00254665 /* en */,
 			);
-			name = awards.json;
+			name = Awards.json;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
