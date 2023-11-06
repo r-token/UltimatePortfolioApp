@@ -24,7 +24,6 @@
 		F44692352ACD07AC00A9657E /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44692342ACD07AC00A9657E /* IssueRow.swift */; };
 		F4A408512AF88BBA00254665 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F4A408502AF88BBA00254665 /* Localizable.xcstrings */; };
 		F4A4085E2AF8981600254665 /* awards.json in Resources */ = {isa = PBXBuildFile; fileRef = F4A408602AF8981600254665 /* awards.json */; };
-		F4A408652AF8987800254665 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A408642AF8987800254665 /* Colors.xcassets */; };
 		F4E8B28D2AD38BA2005BFAB7 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */; };
 		F4E8B28F2AD38BA8005BFAB7 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */; };
 /* End PBXBuildFile section */
@@ -51,7 +50,6 @@
 		F4A408502AF88BBA00254665 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		F4A4085F2AF8981600254665 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/awards.json; sourceTree = "<group>"; };
 		F4A408612AF8981E00254665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/awards.json; sourceTree = "<group>"; };
-		F4A408642AF8987800254665 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ../../../../../Downloads/UltimatePortfolio/UltimatePortfolio/Colors.xcassets; sourceTree = "<group>"; };
 		F4A408662AF8987A00254665 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
 		F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		F44692092ACCED4800A9657E = {
 			isa = PBXGroup;
 			children = (
-				F4A408642AF8987800254665 /* Colors.xcassets */,
 				F44692142ACCED4800A9657E /* UltimatePortfolio */,
 				F44692132ACCED4800A9657E /* Products */,
 			);
@@ -181,7 +178,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A408652AF8987800254665 /* Colors.xcassets in Resources */,
 				F4A408512AF88BBA00254665 /* Localizable.xcstrings in Resources */,
 				F4A4085E2AF8981600254665 /* awards.json in Resources */,
 				F446921E2ACCED4900A9657E /* Preview Assets.xcassets in Resources */,
