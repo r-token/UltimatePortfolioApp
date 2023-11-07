@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		B18336652AFADED6002CD5A0 /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18336642AFADED6002CD5A0 /* UltimatePortfolioTests.swift */; };
 		B183366C2AFAE115002CD5A0 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183366B2AFAE115002CD5A0 /* AssetTests.swift */; };
-		B183366D2AFAE3CC002CD5A0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A408662AF8987A00254665 /* Colors.xcassets */; };
 		B183366E2AFAE414002CD5A0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A408662AF8987A00254665 /* Colors.xcassets */; };
+		B18336702AFAEAEF002CD5A0 /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183366F2AFAEAEF002CD5A0 /* TagTests.swift */; };
+		B18336722AFAED4B002CD5A0 /* AwardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18336712AFAED4B002CD5A0 /* AwardsTests.swift */; };
 		F437877E2AF6C83100ADE20F /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437877D2AF6C83100ADE20F /* Bundle-Decodable.swift */; };
 		F43787842AF6CC1600ADE20F /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43787832AF6CC1600ADE20F /* Award.swift */; };
 		F43787862AF6CC9900ADE20F /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43787852AF6CC9900ADE20F /* AwardsView.swift */; };
@@ -52,6 +53,8 @@
 		B18336622AFADED6002CD5A0 /* UltimatePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18336642AFADED6002CD5A0 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
 		B183366B2AFAE115002CD5A0 /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTests.swift; sourceTree = "<group>"; };
+		B183366F2AFAEAEF002CD5A0 /* TagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
+		B18336712AFAED4B002CD5A0 /* AwardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsTests.swift; sourceTree = "<group>"; };
 		F437877D2AF6C83100ADE20F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		F43787832AF6CC1600ADE20F /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		F43787852AF6CC9900ADE20F /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 			children = (
 				B18336642AFADED6002CD5A0 /* UltimatePortfolioTests.swift */,
 				B183366B2AFAE115002CD5A0 /* AssetTests.swift */,
+				B183366F2AFAEAEF002CD5A0 /* TagTests.swift */,
+				B18336712AFAED4B002CD5A0 /* AwardsTests.swift */,
 			);
 			path = UltimatePortfolioTests;
 			sourceTree = "<group>";
@@ -302,7 +307,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B183366D2AFAE3CC002CD5A0 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +330,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B183366C2AFAE115002CD5A0 /* AssetTests.swift in Sources */,
+				B18336722AFAED4B002CD5A0 /* AwardsTests.swift in Sources */,
+				B18336702AFAEAEF002CD5A0 /* TagTests.swift in Sources */,
 				B18336652AFADED6002CD5A0 /* UltimatePortfolioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
