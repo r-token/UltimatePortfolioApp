@@ -104,7 +104,6 @@
 				F4A408722AF8A11B00254665 /* UserFilterRow.swift */,
 				F4A408702AF8A0D100254665 /* SmartFilterRow.swift */,
 				F4A408672AF89B6000254665 /* SidebarViewToolbar.swift */,
-				F4A408502AF88BBA00254665 /* Localizable.xcstrings */,
 				F43787852AF6CC9900ADE20F /* AwardsView.swift */,
 				F437877D2AF6C83100ADE20F /* Bundle-Decodable.swift */,
 				F43787832AF6CC1600ADE20F /* Award.swift */,
@@ -123,6 +122,7 @@
 				F44692242ACCF1E400A9657E /* Main.xcdatamodeld */,
 				F44692192ACCED4900A9657E /* Assets.xcassets */,
 				F4A408662AF8987A00254665 /* Colors.xcassets */,
+				F4A408502AF88BBA00254665 /* Localizable.xcstrings */,
 				F446921B2ACCED4900A9657E /* UltimatePortfolio.entitlements */,
 				F446921C2ACCED4900A9657E /* Preview Content */,
 			);
