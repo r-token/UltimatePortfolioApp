@@ -46,7 +46,7 @@
 		F446921D2ACCED4900A9657E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F44692252ACCF1E400A9657E /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		F44692272ACCF41B00A9657E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		F44692292ACCF95800A9657E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F44692292ACCF95800A9657E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F446922A2ACCFA2B00A9657E /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		F446922C2ACCFA3000A9657E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F446922E2ACCFBFF00A9657E /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
@@ -78,6 +78,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B18336572AFADC37002CD5A0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F44692292ACCF95800A9657E /* Info.plist */,
+				F44692242ACCF1E400A9657E /* Main.xcdatamodeld */,
+				F446921B2ACCED4900A9657E /* UltimatePortfolio.entitlements */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		B18336582AFADC81002CD5A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F437877D2AF6C83100ADE20F /* Bundle-Decodable.swift */,
+				F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */,
+				F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B183365A2AFADCA5002CD5A0 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				F446922E2ACCFBFF00A9657E /* Filter.swift */,
+				F446922A2ACCFA2B00A9657E /* SidebarView.swift */,
+				F4A408672AF89B6000254665 /* SidebarViewToolbar.swift */,
+				F4A408702AF8A0D100254665 /* SmartFilterRow.swift */,
+				F4A408722AF8A11B00254665 /* UserFilterRow.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		B183365B2AFADCAA002CD5A0 /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				F44692172ACCED4800A9657E /* ContentView.swift */,
+				F4A4086C2AF89D9000254665 /* ContentViewToolbar.swift */,
+				F44692342ACD07AC00A9657E /* IssueRow.swift */,
+			);
+			path = Issues;
+			sourceTree = "<group>";
+		};
+		B183365C2AFADCAE002CD5A0 /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				F446922C2ACCFA3000A9657E /* DetailView.swift */,
+				F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */,
+				F4A4086A2AF89CFD00254665 /* IssueViewToolbar.swift */,
+				F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */,
+				F4A4086E2AF8A01800254665 /* TagsMenuView.swift */,
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		B183365D2AFADCB9002CD5A0 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				F43787832AF6CC1600ADE20F /* Award.swift */,
+				F4A408602AF8981600254665 /* Awards.json */,
+				F43787852AF6CC9900ADE20F /* AwardsView.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
 		F44692092ACCED4800A9657E = {
 			isa = PBXGroup;
 			children = (
@@ -97,33 +161,17 @@
 		F44692142ACCED4800A9657E /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				F44692292ACCF95800A9657E /* Info.plist */,
+				B183365A2AFADCA5002CD5A0 /* Filters */,
+				B183365B2AFADCAA002CD5A0 /* Issues */,
+				B183365C2AFADCAE002CD5A0 /* Editing */,
+				B183365D2AFADCB9002CD5A0 /* Awards */,
+				B18336572AFADC37002CD5A0 /* Configuration */,
+				B18336582AFADC81002CD5A0 /* Extensions */,
 				F44692152ACCED4800A9657E /* UltimatePortfolioApp.swift */,
-				F446922E2ACCFBFF00A9657E /* Filter.swift */,
-				F446922A2ACCFA2B00A9657E /* SidebarView.swift */,
-				F4A408722AF8A11B00254665 /* UserFilterRow.swift */,
-				F4A408702AF8A0D100254665 /* SmartFilterRow.swift */,
-				F4A408672AF89B6000254665 /* SidebarViewToolbar.swift */,
-				F43787852AF6CC9900ADE20F /* AwardsView.swift */,
-				F437877D2AF6C83100ADE20F /* Bundle-Decodable.swift */,
-				F43787832AF6CC1600ADE20F /* Award.swift */,
-				F44692172ACCED4800A9657E /* ContentView.swift */,
-				F4A4086C2AF89D9000254665 /* ContentViewToolbar.swift */,
-				F44692342ACD07AC00A9657E /* IssueRow.swift */,
-				F446922C2ACCFA3000A9657E /* DetailView.swift */,
-				F4E8B28C2AD38BA2005BFAB7 /* IssueView.swift */,
-				F4A4086E2AF8A01800254665 /* TagsMenuView.swift */,
-				F4A4086A2AF89CFD00254665 /* IssueViewToolbar.swift */,
-				F4E8B28E2AD38BA8005BFAB7 /* NoIssueView.swift */,
 				F44692272ACCF41B00A9657E /* DataController.swift */,
-				F44692302ACD025D00A9657E /* Issue+CoreDataHelpers.swift */,
-				F44692322ACD034000A9657E /* Tag+CoreDataHelpers.swift */,
-				F4A408602AF8981600254665 /* Awards.json */,
-				F44692242ACCF1E400A9657E /* Main.xcdatamodeld */,
-				F44692192ACCED4900A9657E /* Assets.xcassets */,
-				F4A408662AF8987A00254665 /* Colors.xcassets */,
 				F4A408502AF88BBA00254665 /* Localizable.xcstrings */,
-				F446921B2ACCED4900A9657E /* UltimatePortfolio.entitlements */,
+				F4A408662AF8987A00254665 /* Colors.xcassets */,
+				F44692192ACCED4900A9657E /* Assets.xcassets */,
 				F446921C2ACCED4900A9657E /* Preview Content */,
 			);
 			path = UltimatePortfolio;
@@ -368,7 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/Configuration/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
@@ -376,7 +424,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
+				INFOPLIST_FILE = UltimatePortfolio/Configuration/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -407,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/Configuration/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
@@ -415,7 +463,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
+				INFOPLIST_FILE = UltimatePortfolio/Configuration/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
