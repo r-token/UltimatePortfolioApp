@@ -45,7 +45,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B18336902AFB0E16002CD5A0"
+               BlueprintIdentifier = "B183369F2AFB11CC002CD5A0"
                BuildableName = "UltimatePortfolioUITests.xctest"
                BlueprintName = "UltimatePortfolioUITests"
                ReferencedContainer = "container:UltimatePortfolio.xcodeproj">

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B128EE642AFBF5D10002B57D /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128EE632AFBF5D10002B57D /* SidebarViewModel.swift */; };
 		B18336652AFADED6002CD5A0 /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18336642AFADED6002CD5A0 /* UltimatePortfolioTests.swift */; };
 		B183366C2AFAE115002CD5A0 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183366B2AFAE115002CD5A0 /* AssetTests.swift */; };
 		B183366E2AFAE414002CD5A0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A408662AF8987A00254665 /* Colors.xcassets */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B128EE632AFBF5D10002B57D /* SidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewModel.swift; sourceTree = "<group>"; };
 		B18336622AFADED6002CD5A0 /* UltimatePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18336642AFADED6002CD5A0 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
 		B183366B2AFAE115002CD5A0 /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTests.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			children = (
 				F446922E2ACCFBFF00A9657E /* Filter.swift */,
 				F446922A2ACCFA2B00A9657E /* SidebarView.swift */,
+				B128EE632AFBF5D10002B57D /* SidebarViewModel.swift */,
 				F4A408672AF89B6000254665 /* SidebarViewToolbar.swift */,
 				F4A408702AF8A0D100254665 /* SmartFilterRow.swift */,
 				F4A408722AF8A11B00254665 /* UserFilterRow.swift */,
@@ -448,6 +451,7 @@
 				F446922D2ACCFA3000A9657E /* DetailView.swift in Sources */,
 				F437877E2AF6C83100ADE20F /* Bundle-Decodable.swift in Sources */,
 				F44692282ACCF41B00A9657E /* DataController.swift in Sources */,
+				B128EE642AFBF5D10002B57D /* SidebarViewModel.swift in Sources */,
 				F446922B2ACCFA2B00A9657E /* SidebarView.swift in Sources */,
 				F4A4086D2AF89D9000254665 /* ContentViewToolbar.swift in Sources */,
 				F44692182ACCED4800A9657E /* ContentView.swift in Sources */,
