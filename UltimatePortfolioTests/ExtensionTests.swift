@@ -95,7 +95,7 @@ final class ExtensionTests: BaseTestCase {
         issue3.creationDate = .now.addingTimeInterval(100)
 
         let allIssues = [issue1, issue2, issue3]
-        
+
         // When
         let sorted = allIssues.sorted()
 

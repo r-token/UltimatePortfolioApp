@@ -25,8 +25,16 @@ final class TagTests: BaseTestCase {
         }
 
         // Then
-        XCTAssertEqual(dataController.count(for: Tag.fetchRequest()), targetCount, "There should be \(targetCount) tags.")
-        XCTAssertEqual(dataController.count(for: Issue.fetchRequest()), targetCount * targetCount, "There should be \(targetCount * targetCount) tags.")
+        XCTAssertEqual(
+            dataController.count(for: Tag.fetchRequest()),
+            targetCount,
+            "There should be \(targetCount) tags."
+        )
+        XCTAssertEqual(
+            dataController.count(for: Issue.fetchRequest()),
+            targetCount * targetCount,
+            "There should be \(targetCount * targetCount) tags."
+        )
     }
 
     func testDeletingTagDoesNotDeleteIssues() throws {
@@ -40,7 +48,15 @@ final class TagTests: BaseTestCase {
         dataController.delete(tags[0])
 
         // Then
-        XCTAssertEqual(dataController.count(for: Tag.fetchRequest()), 4, "There should be 4 tags after deleting 1 from our sample data")
-        XCTAssertEqual(dataController.count(for: Issue.fetchRequest()), 50, "There should still be 50 issues after deleting a tag from our sample data")
+        XCTAssertEqual(
+            dataController.count(for: Tag.fetchRequest()),
+            4,
+            "There should be 4 tags after deleting 1 from our sample data"
+        )
+        XCTAssertEqual(
+            dataController.count(for: Issue.fetchRequest()),
+            50,
+            "There should still be 50 issues after deleting a tag from our sample data"
+        )
     }
 }

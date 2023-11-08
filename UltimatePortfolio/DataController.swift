@@ -17,7 +17,6 @@ enum Status {
     case all, open, closed
 }
 
-
 /// An environment singleton responsible for managing our Core Data stack, including handling saving,
 /// counting fetch requests, tracking orders, and dealing with sample data
 class DataController: ObservableObject {
@@ -143,7 +142,6 @@ class DataController: ObservableObject {
 
         try? viewContext.save()
     }
-
 
     /// Saves our Core Data context iff there are changes. This silently ignores
     /// any errors caused by saving, but this should be fine because

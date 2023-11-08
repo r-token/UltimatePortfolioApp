@@ -416,6 +416,16 @@
         }
       }
     },
+    "Example Issue" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Példa Probléma"
+          }
+        }
+      }
+    },
     "Filter" : {
       "localizations" : {
         "en" : {
@@ -523,7 +533,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zárt"
+            "value" : "Zárolt"
           }
         }
       }
@@ -654,6 +664,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nincs kiválasztott probléma"
+          }
+        }
+      }
+    },
+    "No tags" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No tags"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cimkétlen"
           }
         }
       }
@@ -883,6 +909,22 @@
         }
       }
     },
+    "This is an example issue" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is an example issue"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ez egy példa probléma"
+          }
+        }
+      }
+    },
     "Title" : {
       "localizations" : {
         "en" : {
@@ -942,7 +984,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Feloldva: %@"
+            "value" : "Feloldott: %@"
           }
         }
       }

@@ -32,10 +32,11 @@ extension Issue {
     }
 
     var issueTagsList: String {
-        guard let tags else { return "No tags" }
+        let noTags = String(localized: "No tags")
+        guard let tags else { return noTags }
 
         if tags.count == 0 {
-            return "No tags"
+            return noTags
         } else {
             return issueTags.map(\.tagName).formatted()
         }
@@ -43,9 +44,9 @@ extension Issue {
 
     var issueStatus: String {
         if completed {
-            return "Closed"
+            return String(localized: "Closed")
         } else {
-            return "Open"
+            return String(localized: "Open")
         }
     }
 
@@ -54,8 +55,8 @@ extension Issue {
         let viewContext = controller.container.viewContext
 
         let issue = Issue(context: viewContext)
-        issue.title = "Example Issue"
-        issue.content = "This is an example issue"
+        issue.title = String(localized: "Example Issue")
+        issue.content = String(localized: "This is an example issue")
         issue.priority = 2
         issue.creationDate = .now
         return issue
